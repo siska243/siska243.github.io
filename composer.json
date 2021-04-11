@@ -1,0 +1,27 @@
+{
+  "name": "vendor_name/Moev",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "siska",
+      "email": "emmanuelsimisi@gmail.com"
+    }
+  ],
+  "require": {
+    "mpdf/mpdf": "^8.0",
+    "symfony/framework-bundle": "^5.2",
+    "symfony/dotenv": "^5.2",
+    "symfony/twig-bundle": "^5.2"
+  },
+  "require-dev": {
+    "symfony/maker-bundle": "^1.30"
+  },
+  "autoload": {
+    "psr-4": {
+      "Monolog\\": "src/",
+      "Vendor\\Namespace\\": ""
+    }
+  }
+}
